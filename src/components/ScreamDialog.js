@@ -71,7 +71,6 @@ class ScreamDialog extends Component {
       UI: { loading}
     } = this.props
 
-    // TODO: Why is profile rendering huge?
     const dialogMarkup = loading ? (
       <CircularProgress size={200}/>
     ) : (
